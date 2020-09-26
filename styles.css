@@ -1,3 +1,27 @@
-p {
-	font-family: Roboto;
+.wrapper {
+	margin: auto;
+	width: 80%;
+}
+
+.logo {
+	padding: 40px 0;
+	display: inline-block;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu__item {
+	padding: 0 13px;
+}
+
+.menu__item:last-child {
+	padding-right: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
 }
