@@ -1,6 +1,7 @@
 .header {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 125px;
 }
 
 .wrapper {
@@ -34,6 +35,7 @@
 
 .logo__circle_color_dark-blue {
 	background: #0056EC;
+	opacity: .7;
 }
 
 .menu {
@@ -47,7 +49,7 @@
 	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
-	transition: opacity .5s;/*ubrat' esli 4to*/
+	transition: opacity .5s;
 }
 
 .menu__item_active::after {
@@ -64,7 +66,6 @@
 	margin-right: 0;
 }
 
-/*poneslas hover - gde to tut zatik poluchaetsa*/
 
 .menu__item:hover {
 	opacity: .5;
@@ -100,3 +101,43 @@
 .menu__item_active:hover::after {
 	opacity: 1;
 }
+
+
+
+.main {
+	padding: 0 63% 260px 0;
+	background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title {
+	margin: 0 0 40px 0;
+	font: 700 66px/87px pt_serif, arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+	width: 455px;
+	margin-bottom: 0 0 41px 0;
+	font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+	display: inline-block;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+	color: #fff;
+	background: #0056EC;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: opacity .5s;
+}
+
+.main__button:hover {
+	opacity: .5;
+}
+
+.main__title-text_highlight {
+	background: #ECF3FF;
+}
+
+
+
